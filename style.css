@@ -1,0 +1,252 @@
+/*
+Theme Name: Day Street Theme
+Theme URI: https://github.com/tdoria/daystreet
+Author: Tiago Doria
+Author URI: https://github.com/tdoria
+Description: A minimalist theme for Wordpress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/********************** 
+General
+************************/
+
+html,
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #7a7a7a;
+	height: 100%;
+}
+
+#main-wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -200px;	
+}
+
+#wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	color: #e53e18;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+#searchsubmit {
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	color: #FFF;
+	background-color: #3a3a3a;
+}
+  
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}  
+
+/********************** 
+Logo 
+************************/
+
+#logo {
+	text-align: center;
+	margin: 0;
+
+}
+
+h1.logo-title {
+	font-size: 4em;
+	font-weight: 800;
+	text-transform: uppercase;
+	clear: both;
+}
+
+h1.logo-title a, a:visited, a:hover, a:active {
+	color: #3a3a3a;
+}
+
+/*********************
+Navigation
+**********************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 50px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	font-size: 1.1em;
+	display: inline-block;
+}
+
+nav a, nav a:visited {
+	font-weight: 800;
+	color: #3a3a3a;
+	padding: 15px 10px;
+}
+
+nav a:hover {
+	color: #e53e18;
+}
+
+/********************
+Article
+********************/
+
+h1.article-title {
+	margin: 15px 0;
+	font-weight: 800;
+	clear: both;
+}
+
+h1.article-title a, a:visited, a:active {
+	color: #3a3a3a;
+}
+
+h1.article a:hover {
+	color: #0093d0;
+}
+
+.article-date {
+	font-style: italic;
+	margin: 10px 0px;
+}
+
+.article-meta {
+	margin: 18px 0px;
+	color: inherit;
+	letter-spacing: 0.02em;
+
+}
+
+.nav-previous, .nav-next {
+	margin: 45px 0 45px;
+}
+
+p {
+	font-size: 1.0em;
+	letter-spacing: 0.02em;
+	margin-top: 1.1em;
+	margin-bottom: 1.2em;
+	line-height: 1.6em;
+}
+
+p a, p a:visited, a:hover, a:active {
+	color: #e53e18;
+}
+
+hr {
+	margin: 2.5em 0;
+}
+
+
+/********************
+Pages
+*********************/
+
+h1.page-title {
+	margin: 15px 0;
+	font-weight: 800;
+	clear: both;	
+}
+
+.page-content {
+	text-align: center;
+}
+
+/********************
+Footer
+*********************/
+
+footer {
+	font-size: 1.0em;
+	text-align: center;
+	margin-top: 50px;
+	height: 200px;
+}
+
+.push{
+	height: 200px;
+}
+
+.social-icon {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px 20px;
+}
+
+.footer-txt {
+	font-size: inherit;
+	color: inherit;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+/********************** 
+Images
+************************/
+
+article .feature-img {
+	margin: 30px 0px;
+}
+
+/********************** 
+Contact form
+************************/
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+input[type="text"],
+textarea {
+	height: 100%;
+	width: 50%;
+}
+.button {
+	 border-radius: 5px;
+}
+
+/********************** 
+Hacks
+************************/
+
+/*
+Fix logged menu 
+*/
+.logged-in, .nav-toggle {
+	top: 30px;
+}
