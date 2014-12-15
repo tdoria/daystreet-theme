@@ -155,7 +155,7 @@ h1.article a:hover {
 }
 
 p {
-	font-size: 1.0em;
+	font-size: 1.050em;
 	letter-spacing: 0.02em;
 	margin-top: 1.1em;
 	margin-bottom: 1.2em;
@@ -190,7 +190,7 @@ Footer
 *********************/
 
 footer {
-	font-size: 1.0em;
+	font-size: 1.050em;
 	text-align: center;
 	margin-top: 50px;
 	height: 200px;
