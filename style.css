@@ -4,7 +4,7 @@ Theme URI: https://github.com/tdoria/daystreet
 Author: Tiago Doria
 Author URI: https://github.com/tdoria
 Description: A minimalist theme for Wordpress
-Version: 1.0
+Version: 1.0 (beta)
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
@@ -125,6 +125,7 @@ Article
 ********************/
 
 h1.article-title {
+	font-size: 2.5em;
 	margin: 15px 0;
 	font-weight: 800;
 	clear: both;
