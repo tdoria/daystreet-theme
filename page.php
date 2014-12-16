@@ -28,7 +28,10 @@
   </section>
 
 </div> <!-- wrapper div close tag -->
-  
+
+<!-- to stick footer -->
+<div class="push"></div>
+<!-- to stick footer -->
 
 <?php get_footer(); ?>
 
