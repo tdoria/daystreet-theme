@@ -19,21 +19,21 @@ General
 
 html,
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #7a7a7a;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	height: 100%;
 }
 
 #main-wrapper {
-	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -200px;	
+	margin: 0 auto -200px;
+	min-height: 100%;	
 }
 
 #wrapper {
-	max-width: 900px;
 	margin: 0 auto;
+	max-width: 900px;
 	padding: 0 5%;
 }
 
@@ -48,11 +48,11 @@ img {
 
 
 #searchsubmit {
+	background-color: #3a3a3a;
 	border-radius: 5px;
 	border: none;
-	padding: 5px;
 	color: #FFF;
-	background-color: #3a3a3a;
+	padding: 5px;
 }
   
 
@@ -73,16 +73,15 @@ Logo
 ************************/
 
 #logo {
-	text-align: center;
 	margin: 0;
-
+	text-align: center;
 }
 
 h1.logo-title {
+	clear: both;
 	font-size: 4em;
 	font-weight: 800;
 	text-transform: uppercase;
-	clear: both;
 }
 
 h1.logo-title a, a:visited, a:hover, a:active {
@@ -94,9 +93,9 @@ Navigation
 **********************/
 
 nav {
-	text-align: center;
 	padding: 10px 0;
 	margin: 20px 0 50px;
+	text-align: center;
 }
 
 nav ul {
@@ -106,13 +105,13 @@ nav ul {
 }
 
 nav li {
-	font-size: 1.1em;
 	display: inline-block;
+	font-size: 1.1em;
 }
 
 nav a, nav a:visited {
-	font-weight: 800;
 	color: #3a3a3a;
+	font-weight: 800;
 	padding: 15px 10px;
 }
 
@@ -124,29 +123,29 @@ nav a:hover {
 Article
 ********************/
 
-h1.article-title {
-	font-size: 2.5em;
-	margin: 15px 0;
-	font-weight: 800;
+.article-title {
 	clear: both;
+	font-size: 2.5em;
+	font-weight: 800;
+	margin: 15px 0;	
 }
 
-h1.article-title a, a:visited, a:active {
+.article-title a, a:visited, a:active {
 	color: #3a3a3a;
 }
 
-h1.article a:hover {
+.article a:hover {
 	color: #0093d0;
 }
 
 .article-date {
 	font-style: italic;
-	margin: 10px 0px;
+	margin: 10px 0;
 }
 
 .article-meta {
-	margin: 18px 0px;
 	color: inherit;
+	margin: 18px 0;
 	letter-spacing: 0.02em;
 
 }
@@ -157,9 +156,9 @@ h1.article a:hover {
 
 p {
 	font-size: 1.050em;
-	letter-spacing: 0.02em;
 	margin-top: 1.1em;
 	margin-bottom: 1.2em;
+	letter-spacing: 0.02em;
 	line-height: 1.6em;
 }
 
@@ -176,10 +175,10 @@ hr {
 Pages
 *********************/
 
-h1.page-title {
-	margin: 15px 0;
+.page-title {
+	clear: both;
 	font-weight: 800;
-	clear: both;	
+	margin: 15px 0;
 }
 
 .page-content {
@@ -192,9 +191,8 @@ Footer
 
 footer {
 	font-size: 1.050em;
-	text-align: center;
-	margin-top: 50px;
 	height: 200px;
+	text-align: center;	
 }
 
 .push{
@@ -202,14 +200,14 @@ footer {
 }
 
 .social-icon {
-	width: 40px;
 	height: 40px;
 	margin: 0 5px 20px;
+	width: 40px;
 }
 
 .footer-txt {
-	font-size: inherit;
 	color: inherit;
+	font-size: inherit;
 	line-height: 1.5em;
 	margin: 0;
 	padding: 0;
@@ -220,7 +218,7 @@ Images
 ************************/
 
 article .feature-img {
-	margin: 30px 0px;
+	margin: 30px 0;
 }
 
 /********************** 
