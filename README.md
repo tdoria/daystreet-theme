@@ -1,4 +1,4 @@
 daystreet-theme
 ===============
 
-Wordpress Theme still in development.
+Wordpress Theme developed from scratch.
